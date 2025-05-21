@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multimedia Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to Our Multimedia Page</h1>
+
+  <!-- Embedded Video -->
+  <h2>Video Section</h2>
+  <section id="video">
+    <video width="320" height="240" controls>
+    <source src="https://videos.pexels.com/video-files/7989448/7989448-sd_640_360_25fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  </section>
+
+  <!-- Embedded Audio -->
+ <section id="audio">
+   <h2>Audio Section</h2>
+  <audio controls>
+    <source src="sample-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  </section>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+      <!-- Name Field -->
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required><br><br>
+
+      <!-- Date Field -->
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br>
+      <select id="country" name="country" required>
+          <option value="">Select your country</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="ca">Canada</option>
+          <option value="au">Australia</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding">
+      <label for="coding">Coding</label><br>
+      <input type="checkbox" id="reading" name="interests" value="reading">
+      <label for="reading">Reading</label><br>
+      <input type="checkbox" id="traveling" name="interests" value="traveling">
+      <label for="traveling">Traveling</label><br><br>
+
+      <!-- Submit Button -->
+     <div id="submit">
+      <input type="submit" value="Register">
+    </div>
+  </form>
+
+  <!-- Embedded Image -->
+  <h2>Image Section</h2>
+  <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="Sample Image" width="300">
+
+  <!-- Table of Contacts -->
+  <h2>Contact List</h2>
+  <table class="tbl-data">
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>Address</th>
+              <th>Mobile</th>
+              <th>Email</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Alice Johnson</td>
+              <td>123 Maple Street</td>
+              <td>+255687678975</td>
+              <td>alice@gmail.com</td>
+          </tr>
+          <tr>
+              <td>Bob Smith</td>
+              <td>456 Oak Avenue</td>
+              <td>+237743463910</td>
+              <td>bob@gmail.com</td>
+          </tr>
+          <tr>
+              <td>Charlie Brown</td>
+              <td>789 Pine Road</td>
+              <td>+254746438450</td>
+              <td>charlie@gmail.com</td>
+          </tr>
+          <tr>
+              <td>Diana Prince</td>
+              <td>321 Elm Drive</td>
+              <td>+254743874306</td>
+              <td>diana@gmail.com</td>
+          </tr>
+          <tr>
+              <td>Edward Nigma</td>
+              <td>654 Cedar Lane</td>
+              <td>+254784608102</td>
+              <td>edward@gmail.com</td>
+          </tr>
+      </tbody>
+  </table>
+
+
+  <!-- List Section -->
+ <section id="List"> 
+  <h2>Things You'll Learn</h2>
+  <ul type="cicle">
+    <li>HTML & CSS</li>
+    <li>JavaScript</li>
+    <li>Form Validation</li>
+    <li>Multimedia Integration</li>
+    <li>pythone</li>
+  </ul>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color:aqua;
+    }
+    form{
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid black;
+      max-width: 600px;
+      background-color:cornflowerblue;
+      border-radius: 12px;
+    }
+
+    input[type="text"]
+    input[type="email"]
+    select{
+      width: 100%;
+      padding: 20px;
+      border: 1px solid black;
+      margin-top: 16px;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      background-color: cornflowerblue
+      font-size: 20px }
+
+      #button{
+        background-color: blue;
+
+      }
+      img{
+        max-width: 100%;
+        border: radius 2px;
+        
+      }
+      #audio{
+        max-width: 100%;
+         border-radius: 12px;
+        margin-bottom: 1.5rem;
+        padding:20
+
+      }
+      #video{
+        max-width: 100%;
+         border-radius:2px;
+
+      }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    ul {
+      margin-top: 10px;
+    }
+    .tbl-data {
+  border-collapse: collapse; /* Ensures borders are shared */
+  width: 100%;
+  border: 2px solid #333; /* Outer border */
+  background-color:white;
+  margin-top: 10px;
+
+}
+
+th,td {
+  border: 1px solid #666; /* Cell borders */
+  padding: 8px;
+  text-align: left;
+}
+
+ th {
+  background-color: black;
+  color: white;
+}
+  h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+  }
+  html,body{
+height: 100%;
+margin: 0;
+  }
+  h2{
+    font-style: italic;
+    font-size: 17px;
+  }
+
